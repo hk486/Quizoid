@@ -1,11 +1,13 @@
 import React from 'react'
-
+import "./Home.css";
 const Home = () => {
-    return (
-        <div>
-            HomePage
+    return <div className='content'>
+        <div className='settings'>
+            <span style={{fontSize: 30}}>Quiz Settings</span>
         </div>
-    )
-}
+        <img src='quiz.png' className='banner' alt='quiz img'/>
+    </div>
+    
+};
 
 export default Home;
