@@ -30,6 +30,26 @@ const Home = () => {
 
                     </TextField>
 
+                    <TextField
+                    select
+                    label="Select Difficulty"
+                    variant="outlined"
+                    style={{marginBottom: 30}}
+                    >
+                        <MenuItem key="Easy" value="easy">
+                            Easy
+                        </MenuItem>
+
+                        <MenuItem key="Medium" value="meduim">
+                            Medium
+                        </MenuItem>
+
+                        <MenuItem key="Hard" value="hard">
+                            Hard
+                        </MenuItem>
+
+                    </TextField>
+
                 </div>
             </div>
             <img src="quiz.png" className="banner" alt="quiz img" />
